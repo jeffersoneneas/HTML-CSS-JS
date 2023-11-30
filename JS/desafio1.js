@@ -9,16 +9,16 @@ Imprima no console o valor que será gasto para realizar esta viagem.
 */
 console.log('Programa de viagem!');
 // preço do combustível
-const precoCombustivel = 5.60;
+const precoCombustivel = 5.63;
 
 // km por litro
 const kmPorLitro = 27;
 
 // distância da viagem
-let DistanciaDaViagem = 450;
+let DistanciaDaViagem = 595;
 
 //calculo do resultado //
 let resultado = (DistanciaDaViagem / kmPorLitro)*5;
 
 // mostrar no console 
-console.log('O valor gasto na viagem é: ' +resultado.toFixed());
+console.log('O valor gasto na viagem é: ' +resultado.toFixed()+'R$');
