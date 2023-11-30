@@ -18,7 +18,7 @@ const kmPorLitro = 27;
 let DistanciaDaViagem = 595;
 
 //calculo do resultado //
-let resultado = (DistanciaDaViagem / kmPorLitro)*5;
+let resultado = (DistanciaDaViagem / kmPorLitro)*precoCombustivel;
 
 // mostrar no console 
 console.log('O valor gasto na viagem é: ' +resultado.toFixed()+'R$');
