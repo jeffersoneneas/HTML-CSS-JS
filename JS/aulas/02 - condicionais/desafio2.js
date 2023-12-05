@@ -16,4 +16,4 @@ if(combustivel === 'gasolina'){
     console.log('combustivel informado é invalido');
 }
 
-console.log(resultado.toFixed(2));
+console.log('o valor gasto é:',resultado.toFixed(2));
